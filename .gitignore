@@ -1,0 +1,23 @@
+# Local secrets and credentials
+.am001_keys/
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Local reports and customer evidence
+am001_output/
+evidence/
+customer-logs/
+*.3mf
+*.stl
+*.gcode
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
